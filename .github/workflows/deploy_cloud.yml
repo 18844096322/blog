@@ -34,7 +34,6 @@ jobs:
         connect_timeout: 10s
         first_ssh: |
           rm -rf /www/wwwroot/heavenh.fun/dist
-          ls -la  \necho $WELCOME 
           mkdir /www/wwwroot/heavenh.fun/dist
         scp: |
           './dist/*' => /www/wwwroot/heavenh.fun/dist/
