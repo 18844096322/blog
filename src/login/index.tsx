@@ -79,8 +79,11 @@ const LoginForm: React.FC = () => {
             </Form.Item>
 
             <Form.Item wrapperCol={{ offset: 4, span: 16 }}>
-                <Button type="primary" htmlType="submit">
-                    提交
+                <Button type="primary" htmlType="submit" className='button1'>
+                    登录
+                </Button>
+                <Button htmlType="submit">
+                    注册
                 </Button>
             </Form.Item>
         </Form>
