@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 // 如果有使用到其他的库或者组件，可以在这里导入
 // import { OtherComponent } from '...';
